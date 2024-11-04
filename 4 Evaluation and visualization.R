@@ -908,9 +908,6 @@ ggsave("a.jpg",plot=p,dpi=600,width = 6.8,height = 5)
 ##-----------------------
 library(ggplot2)
 library(ggExtra)
-#setwd("E:/000_论文写作/1_样条函数-高垂直分辨率预测/work/5 result/8 XY拟合图/1 表层降尺度")
-setwd("E:/000_论文写作/1_样条函数-高垂直分辨率预测/work/5 result/8 XY拟合图/2 表层插值方法")
-#setwd("E:/000_论文写作/1_样条函数-高垂直分辨率预测/work/5 result/8 XY拟合图/3 深层插值方法")
 
 df<-read.csv("result.csv")
 df<-df[df$Obs<0.55,]
